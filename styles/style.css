@@ -32,6 +32,12 @@
     background-color: rgb(78, 71, 255);
 }
 
+.btn-1:hover{
+    background-color: tomato;
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
 /* header section */
 .header{
     max-width: 1440px;
@@ -268,3 +274,26 @@ textarea{
     gap: 10px;
 }
 
+/* footer section */
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 640px;
+    margin: 64px auto;
+    text-align: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-section ul{
+    display: flex;
+    gap: 24px;
+}
+.footer-section ul li{
+    list-style: none;
+}
+
+.footer-section ul li a{
+    text-decoration: none;
+    color: gray;
+}
