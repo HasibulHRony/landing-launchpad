@@ -233,3 +233,38 @@ padding: 50px 0;
     border-radius: 24px;
 } 
 
+/* form section */
+.form-section{
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 60px;
+    justify-content: space-between;
+    gap: 48px;
+}
+.form-section > h2{
+    font-size: 98px;
+}
+
+form{
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+input{
+    width: 380px;
+    padding: 20px;
+    border-radius: 16px;
+    border: gray 1px solid;
+    font-size: 24px;
+}
+
+textarea{
+    font-size: 24px;
+    border: gray 1px solid;
+    border-radius: 16px;
+    gap: 10px;
+}
+
